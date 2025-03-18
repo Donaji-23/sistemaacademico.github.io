@@ -114,23 +114,142 @@
     Aprender y descubrir nuevas cosas
     Celebrar nuestras tradiciones y cultura
     Conoce nuevos amigos y profesores
-    Divertirte y pasa un buen rato
+    Diviertete y pasa un buen rato.
 
     "¡No te pierdas la oportunidad de unirte a nosotros y hacer parte de nuestra comunidad escolar!"
-     
     </p>
 
+      <!-- Sección de   50 Aniversario -->
     <div class="row mt-5">
       <div class="col-md-6">
-        <h2><i class="bi bi-bullseye me-2"></i>Objetivos</h2>
-        <p>Nuestro objetivo es crear un ambiente educativo donde todos los estudiantes se sientan valorados y apoyados, independientemente de sus capacidades o necesidades.</p>
-      </div>
-      <div class="col-md-6">
-        <h2><i class="bi bi-gear me-2"></i>Estrategias</h2>
-        <p>Implementamos diversas estrategias para fomentar la inclusión, como la adaptación de materiales educativos, la formación continua de nuestros docentes y la colaboración con especialistas.</p>
-      </div>
+        <h2><i class="bi bi-bullseye me-2"></i>50 Aniversario </h2>
+        <p style="text-align: justify;">Niños y niñas, padres y madres de familia, colectivo docente y administrativo, público en general disfrutando el recorrido del parque Hidalgo hasta las instalaciones de nuestra escuela.
+        Imágenes y postales que quedarán guardadas en la memoria de todos los que asistimos a este evento.</p>
+
+
+        <!-- GALERÍA -->
+<section id="galeria">
+  <!-- 1era fila de imágenes -->
+  <div class="row">
+    <div class="col-md-4 zoomp">
+      <img src="public/image/eventos/50 ani.jpg" height="300px" width="200%" alt="50 Aniversario Primaria Jorge L Tamayo" data-bs-toggle="modal" data-bs-target="#imageModal">
+      <br><br>
     </div>
 
+    <!-- Modal con Carrusel -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="imageModalLabel">50 Aniversario Primaria Jorge L Tamayo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+           <!-- Carrusel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="public/image/eventos/50 ani1.jpg" class="d-block w-100" alt="Imagen 1">
+    </div>
+    <div class="carousel-item">
+      <img src="public/image/eventos/50 ani2.jpg" class="d-block w-100" alt="Imagen 2">
+    </div>
+    <div class="carousel-item">
+      <img src="public/image/eventos/50 ani3.jpg" class="d-block w-100" alt="Imagen 3">
+    </div>
+    <div class="carousel-item">
+      <img src="public/image/eventos/50 ani4.jpg" class="d-block w-100" alt="Imagen 4">
+    </div>
+    <div class="carousel-item">
+      <img src="public/image/eventos/50 ani5.jpg" class="d-block w-100" alt="Imagen 5">
+    </div>
+  </div>
+              <!-- Controles del Carrusel -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+            <!-- Descripción del Evento -->
+            <p class="mt-3 text-center">Escuela Primaria Urbana Federal "ING. JORGE L. TAMAYO". 50 ANIVERSARIO 🥳 Muchas felicidades al colectivo Escolar. Alumnos y padres de familia. Egresados, ex Directivos, Maestros, supervisores y Autoridades que estuvieron presentes en el evento. ¡SOY TAMAYO!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Sección de Estrategias -->
+  </div>
+      <div class="col-md-6">
+      <h2><i class="bi bi-gear me-2"></i>Estrategias</h2>
+      <p>Implementamos diversas estrategias para fomentar la inclusión, como la adaptación de materiales educativos, la formación continua de nuestros docentes y la colaboración con especialistas.</p>
+      
+    
+        <!-- GALERÍA -->
+<section id="galeria">
+  <!-- 1era fila de imágenes -->
+  <div class="row">
+    <div class="col-md-4 zoomp">
+      <img src="public/image/eventos/50 ani.jpg" height="300px" width="200%" alt="50 Aniversario Primaria Jorge L Tamayo" data-bs-toggle="modal" data-bs-target="#imageModal">
+      <br><br>
+    </div>
+
+    <!-- Modal con Carrusel -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="imageModalLabel">50 Aniversario Primaria Jorge L Tamayo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+           <!-- Carrusel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="public/image/eventos/50 ani1.jpg" class="d-block w-100" alt="Imagen 1">
+    </div>
+    <div class="carousel-item">
+      <img src="public/image/eventos/50 ani2.jpg" class="d-block w-100" alt="Imagen 2">
+    </div>
+    <div class="carousel-item">
+      <img src="public/image/eventos/50 ani3.jpg" class="d-block w-100" alt="Imagen 3">
+    </div>
+    <div class="carousel-item">
+      <img src="public/image/eventos/50 ani4.jpg" class="d-block w-100" alt="Imagen 4">
+    </div>
+    <div class="carousel-item">
+      <img src="public/image/eventos/50 ani5.jpg" class="d-block w-100" alt="Imagen 5">
+    </div>
+  </div>
+              <!-- Controles del Carrusel -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+            <!-- Descripción del Evento -->
+            <p class="mt-3 text-center">Escuela Primaria Urbana Federal "ING. JORGE L. TAMAYO". 50 ANIVERSARIO 🥳 Muchas felicidades al colectivo Escolar. Alumnos y padres de familia. Egresados, ex Directivos, Maestros, supervisores y Autoridades que estuvieron presentes en el evento. ¡SOY TAMAYO!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    </div>
+
+
+
+
+  <!-- Sección de otro -->
     <div class="row mt-5">
       <div class="col-md-6">
         <h2><i class="bi bi-book me-2"></i>Recursos</h2>
