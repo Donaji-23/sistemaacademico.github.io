@@ -182,150 +182,214 @@
     </div>
   </div>
 
- <!-- Sección de Estrategias -->
+ <!-- Sección de Eventos deportivos de Atletismo -->
   </div>
       <div class="col-md-6">
-      <h2><i class="bi bi-gear me-2"></i>Estrategias</h2>
-      <p>Implementamos diversas estrategias para fomentar la inclusión, como la adaptación de materiales educativos, la formación continua de nuestros docentes y la colaboración con especialistas.</p>
-      
-    
+      <h2><i class="bi bi-gear me-2"></i>Eventos deportivos de Atletismo</h2>
+      <p style="text-align: justify;">Destacada participación de nuestros jóvenes estudiantes en los Eventos deportivos de atletismo etapa supervisión num. 50.
+De la cual, se obtuvieron las siguientes posiciones:
+</p>
+<ul style="list-style: none; padding-left: 0;">
+  <li>⭐ 1er lugar - 150 m. Varonil</li>
+  <li>⭐ 1er lugar - 300 m. Varonil</li>
+  <li>⭐ 1er lugar - 300 m. Femenil</li>
+  <li>⭐ 1er lugar - 600 m. Femenil</li>
+</ul>
+ <!-- GALERÍA -->
+ <section id="galeria">
+    <div class="row">
+      <div class="col-md-4 zoomp">
+        <img src="public/image/eventos/atle.jpg" height="350px" width="200%" 
+             alt="Eventos deportivos de Atletismo" data-bs-toggle="modal" data-bs-target="#modalAtletismo">
+        <br><br>
+      </div>
+
+      <!-- Modal con Carrusel -->
+      <div class="modal fade" id="modalAtletismo" tabindex="-1" aria-labelledby="modalAtletismoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalAtletismoLabel">Eventos deportivos de Atletismo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Carrusel -->
+              <div id="carouselAtletismo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="public/image/eventos/atle1.jpg" class="d-block w-100" alt="Imagen 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/atle2.jpg" class="d-block w-100" alt="Imagen 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/atle3.jpg" class="d-block w-100" alt="Imagen 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/atle4.jpg" class="d-block w-100" alt="Imagen 4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/atle5.jpg" class="d-block w-100" alt="Imagen 5">
+                  </div>
+                </div>
+                <!-- Controles del Carrusel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAtletismo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAtletismo" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+              <!-- Descripción del Evento -->
+              <p class="mt-3 text-center">
+                Nos sentimos orgullosos de ustedes porque con su esfuerzo han dejado muy en alto el nombre de nuestra institución.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+<!-- Sección de  Destacada participación de nuestra institución en el "Concurso de escoltas" -->
+      <div class="row mt-5">
+      <div class="col-md-6">
+        <h2><i class="bi bi-bullseye me-2"></i>Concurso de escoltas</h2>
+        <p style="text-align: justify;">Todo el reconocimiento para las participantes por el esfuerzo y la gallardía mostrada en las ejecuciones, a los padres de familia por su apoyo, a los profesores de educación física y a los que acompañaron a nuestra escolta en este evento.</p>
+
+
         <!-- GALERÍA -->
 <section id="galeria">
   <!-- 1era fila de imágenes -->
   <div class="row">
     <div class="col-md-4 zoomp">
-      <img src="public/image/eventos/50 ani.jpg" height="300px" width="200%" alt="50 Aniversario Primaria Jorge L Tamayo" data-bs-toggle="modal" data-bs-target="#imageModal">
+      <img src="public/image/eventos/escol.jpg" height="300px" width="200%" alt="Concurso de escoltas" data-bs-toggle="modal" data-bs-target="#modalEscolta">
       <br><br>
     </div>
 
-    <!-- Modal con Carrusel -->
-    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="imageModalLabel">50 Aniversario Primaria Jorge L Tamayo</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-          </div>
-          <div class="modal-body">
-           <!-- Carrusel -->
-  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="public/image/eventos/50 ani1.jpg" class="d-block w-100" alt="Imagen 1">
-    </div>
-    <div class="carousel-item">
-      <img src="public/image/eventos/50 ani2.jpg" class="d-block w-100" alt="Imagen 2">
-    </div>
-    <div class="carousel-item">
-      <img src="public/image/eventos/50 ani3.jpg" class="d-block w-100" alt="Imagen 3">
-    </div>
-    <div class="carousel-item">
-      <img src="public/image/eventos/50 ani4.jpg" class="d-block w-100" alt="Imagen 4">
-    </div>
-    <div class="carousel-item">
-      <img src="public/image/eventos/50 ani5.jpg" class="d-block w-100" alt="Imagen 5">
-    </div>
-  </div>
-              <!-- Controles del Carrusel -->
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-              </button>
-            </div>
-            <!-- Descripción del Evento -->
-            <p class="mt-3 text-center">Escuela Primaria Urbana Federal "ING. JORGE L. TAMAYO". 50 ANIVERSARIO 🥳 Muchas felicidades al colectivo Escolar. Alumnos y padres de familia. Egresados, ex Directivos, Maestros, supervisores y Autoridades que estuvieron presentes en el evento. ¡SOY TAMAYO!</p>
-          </div>
-        </div>
+   <!-- Modal con Carrusel -->
+<div class="modal fade" id="modalEscolta" tabindex="-1" aria-labelledby="modalEscoltaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalEscoltaLabel">Concurso de escoltas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
       </div>
-    </div>
-  </div>
-    </div>
-    </div>
-
-
-
-
-  <!-- Sección de otro -->
-    <div class="row mt-5">
-      <div class="col-md-6">
-        <h2><i class="bi bi-book me-2"></i>Recursos</h2>
-        <ul>
-          <li><a href="#" target="_blank">Artículo sobre inclusión educativa</a></li>
-          <li><a href="#" target="_blank">Video: Estrategias inclusivas en el aula</a></li>
-          <li><a href="#" target="_blank">Libro recomendado: "Inclusión Educativa en Acción"</a></li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <h2><i class="bi bi-chat-left-quote me-2"></i>Testimonios</h2>
-        <div class="card mb-3">
-          <div class="card-body">
-            <p class="card-text">"La inclusión en esta escuela ha cambiado la vida de mi hijo para mejor." - Padre de familia</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text">"Me siento valorado y apoyado en cada clase." - Estudiante</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row mt-5">
-      <div class="col-md-12">
-        <h2><i class="bi bi-images me-2"></i>Galería</h2>
-        <div id="inclusionCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="modal-body">
+        <!-- Carrusel -->
+        <div id="carouselEscolta" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="public/image/inclusion/inclusion1.jpg" class="d-block w-100" alt="Actividad inclusiva 1">
+              <img src="public/image/eventos/escol1.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 1">
             </div>
             <div class="carousel-item">
-              <img src="public/image/inclusion/inclusion2.jpg" class="d-block w-100" alt="Actividad inclusiva 2">
+              <img src="public/image/eventos/escol2.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 2">
             </div>
             <div class="carousel-item">
-              <img src="public/image/inclusion/inclusion3.jpg" class="d-block w-100" alt="Actividad inclusiva 3">
+              <img src="public/image/eventos/escol3.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+              <img src="public/image/eventos/escol4.jpg" class="d-block mx-auto" style="width: 30%; height: auto;" alt="Imagen 4">
+            </div>
+            <div class="carousel-item">
+              <img src="public/image/eventos/escol5.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 5">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#inclusionCarousel" data-bs-slide="prev">
+          <!-- Controles del Carrusel -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselEscolta" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Anterior</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#inclusionCarousel" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselEscolta" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Siguiente</span>
           </button>
         </div>
+        <p class="mt-3 text-center">Nos vamos con la satisfacción de que se hizo el esfuerzo para alcanzar la meta, y que la hermandad entre las diferentes escuelas se refrenda en este tipo de eventos.</p>
       </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+ <!-- Sección de Eventos deportivos de Atletismo -->
+  </div>
+      <div class="col-md-6">
+      <h2><i class="bi bi-gear me-2"></i>Eventos deportivos de Atletismo</h2>
+      <p style="text-align: justify;">Destacada participación de nuestros jóvenes estudiantes en los Eventos deportivos de atletismo etapa supervisión num. 50.
+De la cual, se obtuvieron las siguientes posiciones:
+1er lugar 150 m. Varonil
+1er lugar 300 m. Varonil
+1er lugar 300 m. Femenil
+1er lugar 600 m. Femenil.</p>
+      
+ <!-- GALERÍA -->
+ <section id="galeria">
+    <div class="row">
+      <div class="col-md-4 zoomp">
+        <img src="public/image/eventos/atle.jpg" height="350px" width="200%" 
+             alt="Eventos deportivos de Atletismo" data-bs-toggle="modal" data-bs-target="#modalAtletismo">
+        <br><br>
+      </div>
+
+      <!-- Modal con Carrusel -->
+      <div class="modal fade" id="modalAtletismo" tabindex="-1" aria-labelledby="modalAtletismoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalAtletismoLabel">Eventos deportivos de Atletismo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Carrusel -->
+              <div id="carouselAtletismo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="public/image/eventos/atle1.jpg" class="d-block w-100" alt="Imagen 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/atle2.jpg" class="d-block w-100" alt="Imagen 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/atle3.jpg" class="d-block w-100" alt="Imagen 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/atle4.jpg" class="d-block w-100" alt="Imagen 4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/atle5.jpg" class="d-block w-100" alt="Imagen 5">
+                  </div>
+                </div>
+                <!-- Controles del Carrusel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAtletismo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAtletismo" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+              <!-- Descripción del Evento -->
+              <p class="mt-3 text-center">
+                Nos sentimos orgullosos de ustedes porque con su esfuerzo han dejado muy en alto el nombre de nuestra institución.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
 
-    <div class="row mt-5">
-      <div class="col-md-12 text-center">
-        <h2><i class="bi bi-envelope me-2"></i>Contacto</h2>
-        <p>¿Tienes preguntas o sugerencias? Contáctanos a través de <a href="mailto:inclusion@jorgelamayo.com">inclusion@jorgelamayo.com</a>.</p>
-      </div>
-    </div>
+ 
 
-    <!-- Encuesta Interactiva -->
-    <div class="row mt-5">
-      <div class="col-md-12">
-        <h2><i class="bi bi-clipboard-check me-2"></i>Encuesta de Inclusión</h2>
-        <p>Queremos conocer tu opinión sobre nuestras estrategias de inclusión. ¡Participa en nuestra encuesta!</p>
-        <iframe src="URL_DE_TU_ENCUESTA" width="100%" height="500px"></iframe>
-      </div>
-    </div>
 
-    <!-- Juego Educativo -->
-    <div class="row mt-5">
-      <div class="col-md-12">
-        <h2><i class="bi bi-controller me-2"></i>Juego Educativo</h2>
-        <p>Aprende sobre inclusión educativa de una manera divertida con nuestro juego interactivo.</p>
-        <iframe src="URL_DEL_JUEGO" width="100%" height="500px"></iframe>
-      </div>
-    </div>
-  </section>
+
 
   <!-- Pie de página -->
   <footer class="bg-gradient text-light py-4 mt-5">
