@@ -110,180 +110,280 @@
     </p>
 
     <div class="row mt-6">
-    
-      <div class="col-md-4">
-      <h1 style="text-align: center;">Colores</h1>
-    <table>
-        <tr>
-            <th>Icono</th>
-            <th>Inglés</th>
-            <th>Español</th>
-        </tr>
-        <tr>
-            <td><div class="color-box" style="background-color: red;"></div></td>
-            <td>red</td>
-            <td>rojo</td>
-        </tr>
-        <tr>
-            <td><div class="color-box" style="background-color: purple;"></div></td>
-            <td>purple</td>
-            <td>morado</td>
-        </tr>
-        <tr>
-            <td><div class="color-box" style="background-color: white;"></div></td>
-            <td>white</td>
-            <td>blanco</td>
-        </tr>
-        <tr>
-            <td><div class="color-box" style="background-color: pink;"></div></td>
-            <td>pink</td>
-            <td>rosa</td>
-        </tr>
-        <tr>
-            <td><div class="color-box" style="background-color: brown;"></div></td>
-            <td>brown</td>
-            <td>café</td>
-        </tr>
-        <tr>
-            <td><div class="color-box" style="background-color: gray;"></div></td>
-            <td>gray</td>
-            <td>gris</td>
-        </tr>
-        <tr>
-            <td><div class="color-box" style="background-color: black;"></div></td>
-            <td>black</td>
-            <td>negro</td>
-        </tr>
-        <tr>
-            <td><div class="color-box" style="background-color: orange;"></div></td>
-            <td>orange</td>
-            <td>naranja</td>
-        </tr>
-        <tr>
-            <td><div class="color-box" style="background-color: yellow;"></div></td>
-            <td>yellow</td>
-            <td>amarillo</td>
-        </tr>
-        <tr>
-            <td><div class="color-box" style="background-color: green;"></div></td>
-            <td>green</td>
-            <td>verde</td>
-        </tr>
-        <tr>
-            <td><div class="color-box" style="background-color: blue;"></div></td>
-            <td>blue</td>
-            <td>azul</td>
-        </tr>
-    </table>
+        <div class="col-md-4">
+            <h1 style="text-align: center;">Colores</h1>
+            <table class="table">
+                <tr>
+                    <th>Icono</th>
+                    <th>Inglés</th>
+                    <th>Español</th>
+                </tr>
+                <tr>
+                    <td><div class="color-box" style="background-color: red;"></div></td>
+                    <td>red</td>
+                    <td>rojo</td>
+                </tr>
+                <tr>
+                    <td><div class="color-box" style="background-color: purple;"></div></td>
+                    <td>purple</td>
+                    <td>morado</td>
+                </tr>
+                <tr>
+                    <td><div class="color-box" style="background-color: white;"></div></td>
+                    <td>white</td>
+                    <td>blanco</td>
+                </tr>
+                <tr>
+                    <td><div class="color-box" style="background-color: pink;"></div></td>
+                    <td>pink</td>
+                    <td>rosa</td>
+                </tr>
+                <tr>
+                    <td><div class="color-box" style="background-color: brown;"></div></td>
+                    <td>brown</td>
+                    <td>café</td>
+                </tr>
+                <tr>
+                    <td><div class="color-box" style="background-color: gray;"></div></td>
+                    <td>gray</td>
+                    <td>gris</td>
+                </tr>
+                <tr>
+                    <td><div class="color-box" style="background-color: black;"></div></td>
+                    <td>black</td>
+                    <td>negro</td>
+                </tr>
+                <tr>
+                    <td><div class="color-box" style="background-color: orange;"></div></td>
+                    <td>orange</td>
+                    <td>naranja</td>
+                </tr>
+                <tr>
+                    <td><div class="color-box" style="background-color: yellow;"></div></td>
+                    <td>yellow</td>
+                    <td>amarillo</td>
+                </tr>
+                <tr>
+                    <td><div class="color-box" style="background-color: green;"></div></td>
+                    <td>green</td>
+                    <td>verde</td>
+                </tr>
+                <tr>
+                    <td><div class="color-box" style="background-color: blue;"></div></td>
+                    <td>blue</td>
+                    <td>azul</td>
+                </tr>
+            </table>
         </div>
-      <div class="col-md-4">
-      <h1 style="text-align: center;">Números</h1>
-    <table>
-        <tr>
-            <th>Número</th>
-            <th>Inglés</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>one</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>two</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>three</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>four</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>five</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>six</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>seven</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>eight</td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>nine</td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>ten</td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>eleven</td>
-        </tr>
-        <tr>
-            <td>12</td>
-            <td>twelve</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>thirteen</td>
-        </tr>
-        <tr>
-            <td>14</td>
-            <td>fourteen</td>
-        </tr>
-        <tr>
-            <td>15</td>
-            <td>fifteen</td>
-        </tr>
-        <tr>
-            <td>16</td>
-            <td>sixteen</td>
-        </tr>
-        <tr>
-            <td>17</td>
-            <td>seventeen</td>
-        </tr>
-        <tr>
-            <td>18</td>
-            <td>eighteen</td>
-        </tr>
-        <tr>
-            <td>19</td>
-            <td>nineteen</td>
-        </tr>
-        <tr>
-            <td>20</td>
-            <td>twenty</td>
-        </tr>
-    </table>
-      </div>
-      <div class="col-md-3">
-
-      <div class="col-md-6">
-      <h1>sdfgh</h1>
-      </div>
+        <div class="col-md-4">
+            <h1 style="text-align: center;">Números</h1>
+            <table class="table">
+                <tr>
+                    <th>Número</th>
+                    <th>Inglés</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>one</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>two</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>three</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>four</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>five</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>six</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>seven</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>eight</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>nine</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>ten</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>eleven</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>twelve</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>thirteen</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>fourteen</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>fifteen</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>sixteen</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>seventeen</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>eighteen</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>nineteen</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>twenty</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <h1 style="text-align: center;">English Alphabet</h1>
+            <table class="table">
+                <tr>
+                    <th>Letter</th>
+                    <th>Pronunciation</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>/eɪ/</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>/biː/</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>/siː/</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>/diː/</td>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <td>/iː/</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td>/ɛf/</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>/ʤiː/</td>
+                </tr>
+                <tr>
+                    <td>H</td>
+                    <td>/eɪʧ/</td>
+                </tr>
+                <tr>
+                    <td>I</td>
+                    <td>/aɪ/</td>
+                </tr>
+                <tr>
+                    <td>J</td>
+                    <td>/ʤeɪ/</td>
+                </tr>
+                <tr>
+                    <td>K</td>
+                    <td>/keɪ/</td>
+                </tr>
+                <tr>
+                    <td>L</td>
+                    <td>/ɛl/</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>/ɛm/</td>
+                </tr>
+                <tr>
+                    <td>N</td>
+                    <td>/ɛn/</td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td>/oʊ/</td>
+                </tr>
+                <tr>
+                    <td>P</td>
+                    <td>/piː/</td>
+                </tr>
+                <tr>
+                    <td>Q</td>
+                    <td>/kjuː/</td>
+                </tr>
+                <tr>
+                    <td>R</td>
+                    <td>/ɑː/</td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>/ɛs/</td>
+                </tr>
+                <tr>
+                    <td>T</td>
+                    <td>/tiː/</td>
+                </tr>
+                <tr>
+                    <td>U</td>
+                    <td>/juː/</td>
+                </tr>
+                <tr>
+                    <td>V</td>
+                    <td>/viː/</td>
+                </tr>
+                <tr>
+                    <td>W</td>
+                    <td>/ˈdʌbəljuː/</td>
+                </tr>
+                <tr>
+                    <td>X</td>
+                    <td>/ɛks/</td>
+                </tr>
+                <tr>
+                    <td>Y</td>
+                    <td>/waɪ/</td>
+                </tr>
+                <tr>
+                    <td>Z</td>
+                    <td>/zɛd/</td>
+                </tr>
+            </table>
+        </div>
     </div>
-
-    <div class="row mt-5">
-      <div class="col-md-6">
-       </div>
-      <div class="col-md-3">
-      </div>
-    </div>
-
+   
     
 
-
+    <h2 class="text-center mb-4">Juegos educativos</h2>
     <section class="gallery">
-      <h2 class="text-center mb-4">Juegos educativos</h2>
+      
       <div class="d-flex flex-wrap gap-3 justify-content-center">
         <a href="https://www.mundoprimaria.com/juegos-educativos/juegos-de-ingles/1er-ciclo-spelling" target="_blank">
             <img src="https://www.mundoprimaria.com/wp-content/uploads/2020/06/01-primero.png" alt="Imagen 1" class="img-thumbnail" style="width: 150px; height: auto;">
