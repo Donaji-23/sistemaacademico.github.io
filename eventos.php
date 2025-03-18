@@ -107,9 +107,17 @@
 
   <!-- Contenido principal -->
   <section class="container my-5">
-    <h1 class="text-center mb-4">Inclusión Educativa</h1>
+    <h1 class="text-center mb-4">Eventos Académicos</h1>
     <p class="lead text-center">
-      La inclusión educativa es fundamental para garantizar que todos los estudiantes tengan las mismas oportunidades de aprendizaje y desarrollo.
+    Ven y únete a nuestra comunidad escolar para:
+
+    Aprender y descubrir nuevas cosas
+    Celebrar nuestras tradiciones y cultura
+    Conoce nuevos amigos y profesores
+    Divertirte y pasa un buen rato
+
+    "¡No te pierdas la oportunidad de unirte a nosotros y hacer parte de nuestra comunidad escolar!"
+     
     </p>
 
     <div class="row mt-5">
