@@ -176,7 +176,6 @@
         </tr>
     </table>
         </div>
-<<<<<<< HEAD
       <div class="col-md-4">
       <h1 style="text-align: center;">Números</h1>
     <table>
@@ -267,7 +266,7 @@
     </table>
       </div>
       <div class="col-md-3">
-=======
+
       <div class="col-md-6">
       <h1>sdfgh</h1>
       </div>
@@ -275,7 +274,6 @@
 
     <div class="row mt-5">
       <div class="col-md-6">
->>>>>>> 38409b02d49c78255ec8d022a8ae99ab9f5323ca
        </div>
       <div class="col-md-3">
       </div>
