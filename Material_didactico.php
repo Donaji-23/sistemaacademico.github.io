@@ -78,13 +78,13 @@
           </li>
           <li class="nav-item">
             <a class="nav-link d-flex align-items-center px-3" href="">
-              <i class="bi bi-folder me-1"></i> Proyectos
+              <i class="bi bi-folder me-1"></i> Eventos
             </a>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link d-flex align-items-center px-3" href="Material_didactico.php">
-              <i class="bi bi-book me-1"></i> Material Didactico
+              <i class="bi bi-book me-1"></i> Material
             </a>
           </li>
         </ul>
@@ -773,34 +773,36 @@
         </div>
       </section> <br><br>
       <header>
-        <center><h1>compemetos</h1></center>
-        
-        
-    </header>
+        <center>
+          <h1>compemetos</h1>
+        </center>
 
-    <section class="gallery">
+
+      </header>
+
+      <section class="gallery">
         <a href="https://profemonica.com/matematicas/" target="_blank">
-            <img src="https://profemonica.com/wp-content/uploads/2024/05/PLANTILLAS-MATEMATICAS-1920-x-800-px.jpg" alt="Imagen 1">
+          <img src="https://profemonica.com/wp-content/uploads/2024/05/PLANTILLAS-MATEMATICAS-1920-x-800-px.jpg" alt="Imagen 1">
         </a>
         <a href="https://profemonica.com/lengua-castellana/" target="_blank">
-            <img src="https://profemonica.com/wp-content/uploads/2024/05/ESPANOL-1920-x-800-px.jpg" alt="Imagen 2">
+          <img src="https://profemonica.com/wp-content/uploads/2024/05/ESPANOL-1920-x-800-px.jpg" alt="Imagen 2">
         </a>
         <a href="https://profemonica.com/ciencias-sociales/" target="_blank">
-            <img src="https://profemonica.com/wp-content/uploads/2024/05/PLANTILLAS-MATEMATICAS-1920-x-800-px-1.jpg" alt="Imagen 3">
+          <img src="https://profemonica.com/wp-content/uploads/2024/05/PLANTILLAS-MATEMATICAS-1920-x-800-px-1.jpg" alt="Imagen 3">
         </a>
         <!-- Añade más imágenes según sea necesario -->
-    </section>
-    <section class="gallery">
+      </section>
+      <section class="gallery">
         <a href="https://profemonica.com/ciencias-naturales/" target="_blank">
-            <img src="https://profemonica.com/wp-content/uploads/2024/05/PLANTILLAS-MATEMATICAS-1920-x-800-px-2.jpg" alt="Imagen 1">
+          <img src="https://profemonica.com/wp-content/uploads/2024/05/PLANTILLAS-MATEMATICAS-1920-x-800-px-2.jpg" alt="Imagen 1">
         </a>
         <a></a>
         <a href="https://profemonica.com/etica-y-valores/" target="_blank">
-            <img src="https://profemonica.com/wp-content/uploads/2024/05/PLANTILLAS-MATEMATICAS-1920-x-800-px-4.jpg" alt="Imagen 3">
+          <img src="https://profemonica.com/wp-content/uploads/2024/05/PLANTILLAS-MATEMATICAS-1920-x-800-px-4.jpg" alt="Imagen 3">
         </a>
-        
+
         <!-- Añade más imágenes según sea necesario -->
-    </section>
+      </section>
 
 
       <!-- Pie de página -->

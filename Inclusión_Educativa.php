@@ -31,25 +31,7 @@
   <!-- CSS personalizado -->
   <link rel="stylesheet" href="public/css/styles.css">
 
-  <style>
-    /* Animaciones y efectos visuales */
-    .fade-in {
-      opacity: 0;
-      animation: fadeIn 2s forwards;
-    }
-
-    @keyframes fadeIn {
-      to {
-        opacity: 1;
-      }
-    }
-
-    .card:hover {
-      transform: scale(1.05);
-      transition: transform 0.3s;
-    }
-  </style>
-</head>
+  </head>
 
 <body>
   <!-- Navegación principal -->
@@ -96,18 +78,18 @@
           </li>
           <li class="nav-item">
             <a class="nav-link d-flex align-items-center px-3" href="eventos.php">
-              <i class="bi bi-folder me-1"></i> eventos
+              <i class="bi bi-folder me-1"></i> Eventos
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link d-flex align-items-center px-3" href="Material_didactico.php">
-              <i class="bi bi-book me-1"></i> Material Didactico
+              <i class="bi bi-book me-1"></i> Material
             </a>
-            </li>
-          </ul>
+          </li>
+        </ul>
         </ul>
 
-          <!-- Formulario de búsqueda -->
+        <!-- Formulario de búsqueda -->
         <form class="d-flex ms-auto">
           <div class="input-group">
             <input class="form-control" type="search" placeholder="¿Qué deseas buscar?" aria-label="Buscar">
@@ -144,7 +126,7 @@
         <ul>
           <li><a href="https://educrea.cl/estrategias-de-atencion-para-apoyar-a-alumnos-con-necesidades-educativas-especiales-en-el-aula/" target="_blank">Artículo sobre inclusión educativa</a></li>
           <li><a href="https://youtu.be/tPnwZlQgMkw" target="_blank">Video: Estrategias inclusivas en el aula</a></li>
-          
+
         </ul>
       </div>
       <div class="col-md-6">
@@ -166,7 +148,7 @@
       <div class="col-md-12">
         <h2><i class="bi bi-images me-2"></i>Galería</h2>
         <div id="inclusionCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner mx-auto" style="max-width: 600px;">
+          <div class="carousel-inner mx-auto" style="max-width: 600px;">
             <div class="carousel-item active">
               <img src="public/image/carrucel/jorge 1.jpg" class="d-block w-100" alt="Actividad inclusiva 1">
             </div>
@@ -176,7 +158,7 @@
             <div class="carousel-item">
               <img src="public/image/carrucel/jorge 3.jpg" class="d-block w-100" alt="Actividad inclusiva 3">
             </div>
-            </div>
+          </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#inclusionCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Anterior</span>
@@ -189,14 +171,14 @@
       </div>
     </div>
 
-    
+
 
     <!-- Juego Educativo -->
     <div class="row mt-5">
       <div class="col-md-12">
         <h2><i class="bi bi-controller me-2"></i>Juego Educativo</h2>
         <p>Aprende sobre inclusión educativa de una manera divertida con nuestro juego interactivo.</p>
-        <iframe src="https://es.educaplay.com/" width="100%" height="500px" ></iframe>
+        <iframe src="https://es.educaplay.com/" width="100%" height="500px"></iframe>
       </div>
     </div>
   </section>
