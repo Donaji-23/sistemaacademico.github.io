@@ -111,6 +111,72 @@
 
     <div class="row mt-5">
       <div class="col-md-6">
+        
+      <body>
+    <h1 style="text-align: center;">Colores</h1>
+    <table>
+        <tr>
+            <th>Icono</th>
+            <th>Inglés</th>
+            <th>Español</th>
+        </tr>
+        <tr>
+            <td>🔴</td>
+            <td>red</td>
+            <td>rojo</td>
+        </tr>
+        <tr>
+            <td>💜</td>
+            <td>purple</td>
+            <td>morado</td>
+        </tr>
+        <tr>
+            <td>⚪</td>
+            <td>white</td>
+            <td>blanco</td>
+        </tr>
+        <tr>
+            <td>💗</td>
+            <td>pink</td>
+            <td>rosa</td>
+        </tr>
+        <tr>
+            <td>🟤</td>
+            <td>brown</td>
+            <td>café</td>
+        </tr>
+        <tr>
+            <td>⬛</td>
+            <td>gray</td>
+            <td>gris</td>
+        </tr>
+        <tr>
+            <td>⬛</td>
+            <td>black</td>
+            <td>negro</td>
+        </tr>
+        <tr>
+            <td>🟠</td>
+            <td>orange</td>
+            <td>naranja</td>
+        </tr>
+        <tr>
+            <td>🟡</td>
+            <td>yellow</td>
+            <td>amarillo</td>
+        </tr>
+        <tr>
+            <td>🟢</td>
+            <td>green</td>
+            <td>verde</td>
+        </tr>
+        <tr>
+            <td>🔵</td>
+            <td>blue</td>
+            <td>azul</td>
+        </tr>
+    </table>
+</body>
         </div>
       <div class="col-md-6">
         </div>
