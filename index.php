@@ -630,9 +630,9 @@
               </p>
               <h5>Sígueme</h5>
               <div class="d-flex align-items-center fs-4">
-                 <a href="tel:+529541410063" class="text-light">
-                   <i class="bi bi-whatsapp"></i>
-                 </a>
+                <a href="tel:+529541410063" class="text-light">
+                  <i class="bi bi-whatsapp"></i>
+                </a>
                 <span class="text-light ms-2">+529541410063</span>
               </div>
             </div>

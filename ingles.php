@@ -109,11 +109,10 @@
       La inclusión educativa es fundamental para garantizar que todos los estudiantes tengan las mismas oportunidades de aprendizaje y desarrollo.
     </p>
 
-    <div class="row mt-5">
-      <div class="col-md-6">
-        
-      <body>
-    <h1 style="text-align: center;">Colores</h1>
+    <div class="row mt-6">
+    
+      <div class="col-md-4">
+      <h1 style="text-align: center;">Colores</h1>
     <table>
         <tr>
             <th>Icono</th>
@@ -121,71 +120,154 @@
             <th>Español</th>
         </tr>
         <tr>
-            <td>🔴</td>
+            <td><div class="color-box" style="background-color: red;"></div></td>
             <td>red</td>
             <td>rojo</td>
         </tr>
         <tr>
-            <td>💜</td>
+            <td><div class="color-box" style="background-color: purple;"></div></td>
             <td>purple</td>
             <td>morado</td>
         </tr>
         <tr>
-            <td>⚪</td>
+            <td><div class="color-box" style="background-color: white;"></div></td>
             <td>white</td>
             <td>blanco</td>
         </tr>
         <tr>
-            <td>💗</td>
+            <td><div class="color-box" style="background-color: pink;"></div></td>
             <td>pink</td>
             <td>rosa</td>
         </tr>
         <tr>
-            <td>🟤</td>
+            <td><div class="color-box" style="background-color: brown;"></div></td>
             <td>brown</td>
             <td>café</td>
         </tr>
         <tr>
-            <td>⬛</td>
+            <td><div class="color-box" style="background-color: gray;"></div></td>
             <td>gray</td>
             <td>gris</td>
         </tr>
         <tr>
-            <td>⬛</td>
+            <td><div class="color-box" style="background-color: black;"></div></td>
             <td>black</td>
             <td>negro</td>
         </tr>
         <tr>
-            <td>🟠</td>
+            <td><div class="color-box" style="background-color: orange;"></div></td>
             <td>orange</td>
             <td>naranja</td>
         </tr>
         <tr>
-            <td>🟡</td>
+            <td><div class="color-box" style="background-color: yellow;"></div></td>
             <td>yellow</td>
             <td>amarillo</td>
         </tr>
         <tr>
-            <td>🟢</td>
+            <td><div class="color-box" style="background-color: green;"></div></td>
             <td>green</td>
             <td>verde</td>
         </tr>
         <tr>
-            <td>🔵</td>
+            <td><div class="color-box" style="background-color: blue;"></div></td>
             <td>blue</td>
             <td>azul</td>
         </tr>
     </table>
-</body>
         </div>
-      <div class="col-md-6">
-        </div>
-    </div>
-
-    <div class="row mt-5">
-      <div class="col-md-6">
+      <div class="col-md-4">
+      <h1 style="text-align: center;">Números</h1>
+    <table>
+        <tr>
+            <th>Número</th>
+            <th>Inglés</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>one</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>two</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>three</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>four</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>five</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>six</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>seven</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>eight</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>nine</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>ten</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>eleven</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>twelve</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>thirteen</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>fourteen</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>fifteen</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>sixteen</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>seventeen</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>eighteen</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>nineteen</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>twenty</td>
+        </tr>
+    </table>
+      </div>
+      <div class="col-md-3">
        </div>
-      <div class="col-md-6">
+      <div class="col-md-3">
       </div>
     </div>
 
