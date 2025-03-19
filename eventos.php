@@ -107,7 +107,7 @@
 
   <!-- Contenido principal -->
   <section class="container my-5">
-    <h1 class="text-center mb-4">Eventos Académicos</h1>
+    <h1 class="text-center mb-4">"Eventos Académicos"</h1>
     <p class="lead text-center">
     Ven y únete a nuestra comunidad escolar para:
 
@@ -122,7 +122,7 @@
       <!-- Sección de   50 Aniversario -->
     <div class="row mt-5">
       <div class="col-md-6">
-        <h2><i class="bi bi-bullseye me-2"></i>50 Aniversario </h2>
+        <h2><i class="bi bi-bullseye me-2"></i>"50 Aniversario"</h2>
         <p style="text-align: justify;">Niños y niñas, padres y madres de familia, colectivo docente y administrativo, público en general disfrutando el recorrido del parque Hidalgo hasta las instalaciones de nuestra escuela.
         Imágenes y postales que quedarán guardadas en la memoria de todos los que asistimos a este evento.</p>
 
@@ -185,7 +185,7 @@
  <!-- Sección de Eventos deportivos de Atletismo -->
   </div>
       <div class="col-md-6">
-      <h2><i class="bi bi-gear me-2"></i>Eventos deportivos de Atletismo</h2>
+      <h2><i class="bi bi-gear me-2"></i>"Eventos deportivos de Atletismo"</h2>
       <p style="text-align: justify;">Destacada participación de nuestros jóvenes estudiantes en los Eventos deportivos de atletismo etapa supervisión num. 50.
 De la cual, se obtuvieron las siguientes posiciones:
 </p>
@@ -253,10 +253,11 @@ De la cual, se obtuvieron las siguientes posiciones:
     </div>
     </div>
 
+<!--  -->
 <!-- Sección de  Destacada participación de nuestra institución en el "Concurso de escoltas" -->
       <div class="row mt-5">
       <div class="col-md-6">
-        <h2><i class="bi bi-bullseye me-2"></i>Concurso de escoltas</h2>
+        <h2><i class="bi bi-bullseye me-2"></i>"Concurso de escoltas"</h2>
         <p style="text-align: justify;">Todo el reconocimiento para las participantes por el esfuerzo y la gallardía mostrada en las ejecuciones, a los padres de familia por su apoyo, a los profesores de educación física y a los que acompañaron a nuestra escolta en este evento.</p>
 
 
@@ -316,11 +317,10 @@ De la cual, se obtuvieron las siguientes posiciones:
 
 
 
-
  <!-- Sección de Eventos club de danza  -->
   </div>
       <div class="col-md-6">
-      <h2><i class="bi bi-gear me-2"></i>Club de danza </h2>
+      <h2><i class="bi bi-gear me-2"></i>"Club de danza"</h2>
       <p style="text-align: justify;">Participación del club de danza y alumnos de nuestra institución, en la presentación de los cuadros de baile "Veracruz" y danzón.</p>
       
  <!-- GALERÍA -->
@@ -381,6 +381,7 @@ De la cual, se obtuvieron las siguientes posiciones:
     </div>
 
    <!--  -->
+    <!--  -->
 <!-- Sección de "El orgullo de ser mexicano"-->
 <div class="row mt-5">
       <div class="col-md-6">
@@ -450,7 +451,7 @@ De la cual, se obtuvieron las siguientes posiciones:
  <!-- Sección de Eventos Día Internacional de las Naciones Unidas. -->
   </div>
       <div class="col-md-6">
-      <h2><i class="bi bi-gear me-2"></i>Día Internacional de las Naciones Unidas.</h2>
+      <h2><i class="bi bi-gear me-2"></i>"Día Internacional de las Naciones Unidas"</h2>
       <p style="text-align: justify;">Participación de 3er. Grado celebrando el  Día Internacional de las Naciones Unidas.
       El objetivo de la ONU es mantener la paz y la seguridad internacional, fomentar las relaciones de amistad entre las naciones,
        y promover el progreso social, los Derechos Humanos y el nivel de vida. </p>
@@ -512,11 +513,279 @@ De la cual, se obtuvieron las siguientes posiciones:
     </div>
     </div>
 
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- Sección de El Día de Muertos -->
+<div class="row mt-5">
+      <div class="col-md-6">
+        <h2><i class="bi bi-bullseye me-2"></i>"El Día de Muertos"</h2>
+        <p style="text-align: justify;">En la visión indígena implica el retorno transitorio de las ánimas de los difuntos, quienes regresan a casa, al mundo de los vivos, para convivir con los familiares y
+           también para nutrirse de la esencia del alimento que se les ofrece en los altares puestos en su honor.</p>
+
+
+        <!-- GALERÍA -->
+<section id="galeria">
+  <!-- 1era fila de imágenes -->
+  <div class="row">
+    <div class="col-md-4 zoomp">
+      <img src="public/image/eventos/muerto.jpg" height="300px" width="300%" alt="El Día de Muertos" data-bs-toggle="modal" data-bs-target="#modalmuerto">
+      <br><br>
+    </div>
+
+   <!-- Modal con Carrusel -->
+<div class="modal fade" id="modalmuerto" tabindex="-1" aria-labelledby="modalmuertoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalmuertoLabel">El Día de Muertos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Carrusel -->
+        <div id="carouselmuerto" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="public/image/eventos/muerto1.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+              <img src="public/image/eventos/muerto2.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+              <img src="public/image/eventos/muerto3.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+              <img src="public/image/eventos/muerto4.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 4">
+            </div>
+            <div class="carousel-item">
+              <img src="public/image/eventos/muerto5.jpg" class="d-block mx-auto" style="width: 40%; height: auto;" alt="Imagen 5">
+            </div>
+          </div>
+          <!-- Controles del Carrusel -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselmuerto" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselmuerto" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+        <p class="mt-3 text-center">En nuestra Institución ya estamos de fiesta, celebrando nuestras tradiciones. Es así como nuestros grupos 3°A, 5A, 5B y 5C representaron con gran alegría, dedicación y esfuerzo estas festividades. 
+          Gracias también al esfuerzo de los Padres de Familia.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 
 
 
+ <!-- Sección de Eventos Navidad. -->
+  </div>
+      <div class="col-md-6">
+      <h2><i class="bi bi-gear me-2"></i>"Navidad"</h2>
+      <p style="text-align: justify;">Era Rodolfo un reno que tenía la nariz, roja como la grana y de un brillo singular. Todos sus compañeros se reían sin parar y nuestro buen amigo solo y triste se quedó.
+      Pero Navidad llegó, Santa Claus bajó y a Rodolfo lo eligió por su singular nariz. </p>
+      
+ <!-- GALERÍA -->
+ <section id="galeria">
+    <div class="row">
+      <div class="col-md-4 zoomp">
+        <img src="public/image/eventos/navi.jpg" height="350px" width="300%" 
+             alt="Navidad" data-bs-toggle="modal" data-bs-target="#modalnavi">
+        <br><br>
+      </div>
 
+      <!-- Modal con Carrusel -->
+      <div class="modal fade" id="modalnavi" tabindex="-1" aria-labelledby="modalnaviLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalnaviLabel">Navidad</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Carrusel -->
+              <div id="carouselnavi" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="public/image/eventos/navi1.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/navi2.jpg" class="d-block mx-auto" style="width: 60%; height: auto;"  alt="Imagen 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/navi3.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/navi4.jpg" class="d-block mx-auto" style="width: 40%; height: auto;"  alt="Imagen 4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/navi5.jpg" class="d-block mx-auto" style="width: 60%; height: auto;"  alt="Imagen 5">
+                  </div>
+                </div>
+                <!-- Controles del Carrusel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselnavi" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselnavi" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+              <!-- Descripción del Evento -->
+              <p class="mt-3 text-center">
+              Ya se siente el espíritu de la navidad en nuestra escuela con la gran participación de los alumnos ✨️Muchas Felicidades✨️
+              🎶 🎵 🎙 🎼🎄¡Feliz Navidad, Feliz Navidad, Próspero Año y Felicidad!🎄☃️
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- Sección de Eventos deportivos "-->
+<div class="row mt-5">
+      <div class="col-md-6">
+        <h2><i class="bi bi-bullseye me-2"></i>"Eventos deportivos"</h2>
+        <p style="text-align: justify;">Nos sentimos orgullosos de nuestros jóvenes deportistas que están poniendo muy en alto su esfuerzo y dedicación así como a nuestra institución a la cual están representando.</p>
+
+
+        <!-- GALERÍA -->
+<section id="galeria">
+  <!-- 1era fila de imágenes -->
+  <div class="row">
+    <div class="col-md-4 zoomp">
+      <img src="public/image/eventos/depo.jpg" height="300px" width="300%" alt="Eventos deportivos" data-bs-toggle="modal" data-bs-target="#modaldeporte">
+      <br><br>
+    </div>
+
+   <!-- Modal con Carrusel -->
+<div class="modal fade" id="modaldeporte" tabindex="-1" aria-labelledby="modaldeporteLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modaldeporteLabel">Eventos deportivos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Carrusel -->
+        <div id="carouseldeporte" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="public/image/eventos/depo1.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+              <img src="public/image/eventos/depo2.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+              <img src="public/image/eventos/depo3.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+              <img src="public/image/eventos/depo4.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 4">
+            </div>
+            <div class="carousel-item">
+              <img src="public/image/eventos/depo5.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 5">
+            </div>
+          </div>
+          <!-- Controles del Carrusel -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouseldeporte" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouseldeporte" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+        <p class="mt-3 text-center">Reconocemos el trabajo y labor de los profesores que están aportando de su trabajo para guiar a los jóvenes en este proceso deportivo.
+        Felicidades Tamayos!!!!</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+ <!-- Sección de Eventos de la Kermés de la Primavera -->
+  </div>
+      <div class="col-md-6">
+      <h2><i class="bi bi-gear me-2"></i>"Kermés de la Primavera"</h2>
+      <p style="text-align: justify;">Fue una jornada llena de diversión y alegría donde chicos y grandes disfrutaron de la pasarela de disfraces alusivos a la primavera, bailes, cantos, increíbles juegos como la tradicional lotería, brincolines, inflables y la emocionante tómbola. 
+        Además, contamos con una deliciosa variedad de comida que deleitó a todos los asistentes. </p>
+      
+ <!-- GALERÍA -->
+ <section id="galeria">
+    <div class="row">
+      <div class="col-md-4 zoomp">
+        <img src="public/image/eventos/kermes.jpg" height="350px" width="300%" 
+             alt="Kermés de la Primavera" data-bs-toggle="modal" data-bs-target="#modalkermes">
+        <br><br>
+      </div>
+
+      <!-- Modal con Carrusel -->
+      <div class="modal fade" id="modalkermes" tabindex="-1" aria-labelledby="modalkermesLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalkermesLabel">Kermés de la Primavera</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Carrusel -->
+              <div id="carouselkermes" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="public/image/eventos/kermes1.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/kermes2.jpg" class="d-block mx-auto" style="width: 60%; height: auto;"  alt="Imagen 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/kermes3.jpg" class="d-block mx-auto" style="width: 40%; height: auto;" alt="Imagen 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/kermes4.jpg" class="d-block mx-auto" style="width: 40%; height: auto;"  alt="Imagen 4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/image/eventos/kermes5.jpg" class="d-block mx-auto" style="width: 40%; height: auto;"  alt="Imagen 5">
+                  </div>
+                </div>
+                <!-- Controles del Carrusel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselkermes" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselkermes" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+              <!-- Descripción del Evento -->
+              <p class="mt-3 text-center">
+              Queremos agradecer a todos los que formaron parte de este maravilloso evento: alumnos, padres de familia, maestros y personal de la escuela. 
+              ¡Su entusiasmo y participación hicieron de esta kermés un día inolvidable!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
 
   <!-- Pie de página -->
   <footer class="bg-gradient text-light py-4 mt-5">
