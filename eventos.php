@@ -149,19 +149,19 @@
   <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="public/image/eventos/50 ani1.jpg" class="d-block w-100" alt="Imagen 1">
+      <img src="public/image/eventos/50 ani1.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 1">
     </div>
     <div class="carousel-item">
-      <img src="public/image/eventos/50 ani2.jpg" class="d-block w-100" alt="Imagen 2">
+      <img src="public/image/eventos/50 ani2.jpg" class="d-block mx-auto" style="width: 60%; height: auto;"  alt="Imagen 2">
     </div>
     <div class="carousel-item">
-      <img src="public/image/eventos/50 ani3.jpg" class="d-block w-100" alt="Imagen 3">
+      <img src="public/image/eventos/50 ani3.jpg" class="d-block mx-auto" style="width: 60%; height: auto;"  alt="Imagen 3">
     </div>
     <div class="carousel-item">
-      <img src="public/image/eventos/50 ani4.jpg" class="d-block w-100" alt="Imagen 4">
+      <img src="public/image/eventos/50 ani4.jpg" class="d-block mx-auto" style="width: 60%; height: auto;"  alt="Imagen 4">
     </div>
     <div class="carousel-item">
-      <img src="public/image/eventos/50 ani5.jpg" class="d-block w-100" alt="Imagen 5">
+      <img src="public/image/eventos/50 ani5.jpg" class="d-block mx-auto" style="width: 40%; height: auto;" alt="Imagen 5">
     </div>
   </div>
               <!-- Controles del Carrusel -->
@@ -217,19 +217,19 @@ De la cual, se obtuvieron las siguientes posiciones:
               <div id="carouselAtletismo" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="public/image/eventos/atle1.jpg" class="d-block w-100" alt="Imagen 1">
+                    <img src="public/image/eventos/atle1.jpg" class="d-block mx-auto" style="width: 40%; height: auto;"  alt="Imagen 1">
                   </div>
                   <div class="carousel-item">
-                    <img src="public/image/eventos/atle2.jpg" class="d-block w-100" alt="Imagen 2">
+                    <img src="public/image/eventos/atle2.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 2">
                   </div>
                   <div class="carousel-item">
-                    <img src="public/image/eventos/atle3.jpg" class="d-block w-100" alt="Imagen 3">
+                    <img src="public/image/eventos/atle3.jpg" class="d-block mx-auto" style="width: 60%; height: auto;"  alt="Imagen 3">
                   </div>
                   <div class="carousel-item">
-                    <img src="public/image/eventos/atle4.jpg" class="d-block w-100" alt="Imagen 4">
+                    <img src="public/image/eventos/atle4.jpg"class="d-block mx-auto" style="width: 60%; height: auto;"  alt="Imagen 4">
                   </div>
                   <div class="carousel-item">
-                    <img src="public/image/eventos/atle5.jpg" class="d-block w-100" alt="Imagen 5">
+                    <img src="public/image/eventos/atle5.jpg" class="d-block mx-auto" style="width: 40%; height: auto;" alt="Imagen 5">
                   </div>
                 </div>
                 <!-- Controles del Carrusel -->
@@ -350,19 +350,19 @@ De la cual, se obtuvieron las siguientes posiciones:
               <div id="carouselAtletismo" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="public/image/eventos/atle1.jpg" class="d-block w-100" alt="Imagen 1">
+                    <img src="public/image/eventos/atle1.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 1">
                   </div>
                   <div class="carousel-item">
-                    <img src="public/image/eventos/atle2.jpg" class="d-block w-100" alt="Imagen 2">
+                    <img src="public/image/eventos/atle2.jpg" class="d-block mx-auto" style="width: 60%; height: auto;"  alt="Imagen 2">
                   </div>
                   <div class="carousel-item">
-                    <img src="public/image/eventos/atle3.jpg" class="d-block w-100" alt="Imagen 3">
+                    <img src="public/image/eventos/atle3.jpg" class="d-block mx-auto" style="width: 60%; height: auto;" alt="Imagen 3">
                   </div>
                   <div class="carousel-item">
-                    <img src="public/image/eventos/atle4.jpg" class="d-block w-100" alt="Imagen 4">
+                    <img src="public/image/eventos/atle4.jpg" class="d-block mx-auto" style="width: 60%; height: auto;"  alt="Imagen 4">
                   </div>
                   <div class="carousel-item">
-                    <img src="public/image/eventos/atle5.jpg" class="d-block w-100" alt="Imagen 5">
+                    <img src="public/image/eventos/atle5.jpg" class="d-block mx-auto" style="width: 60%; height: auto;"  alt="Imagen 5">
                   </div>
                 </div>
                 <!-- Controles del Carrusel -->
