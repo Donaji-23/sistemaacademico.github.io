@@ -107,24 +107,22 @@
 
   <!-- Contenido principal -->
   <section class="container my-5">
-    <h1 class="text-center mb-4">"Eventos Académicos"</h1>
-    <p class="lead text-center">
-    Ven y únete a nuestra comunidad escolar para:
-
-    Aprender y descubrir nuevas cosas
-    ,Celebrar nuestras tradiciones y cultura
-    ,Conoce nuevos amigos y profesores
-    ,Diviertete y pasa un buen rato.
-
-    "¡No te pierdas la oportunidad de unirte a nosotros y hacer parte de nuestra comunidad escolar!"
-    </p>
+  <h1 class="text-center mb-4">Eventos Académicos 🌟</h1>
+  <p class="lead text-center">
+    ¡Ven y únete a nuestra comunidad escolar para:<br>
+    - Aprender y descubrir nuevas cosas 📚<br>
+    - Celebrar nuestras tradiciones y cultura 🎉<br>
+    - Conocer nuevos amigos y profesores 👫👨‍🏫<br>
+    - Divertirte y pasar un buen rato 🎈<br>
+    <strong>¡No te pierdas la oportunidad de unirte a nosotros y ser parte de nuestra comunidad escolar!</strong>
+  </p>
 
       <!-- Sección de   50 Aniversario -->
     <div class="row mt-5">
       <div class="col-md-6">
-        <h2><i class="bi bi-bullseye me-2"></i>"50 Aniversario"</h2>
+        <h2><i class="bi bi-bullseye me-2"></i>"50 Aniversario"🎂</h2>
         <p style="text-align: justify;">Niños y niñas, padres y madres de familia, colectivo docente y administrativo, público en general disfrutando el recorrido del parque Hidalgo hasta las instalaciones de nuestra escuela.
-        Imágenes y postales que quedarán guardadas en la memoria de todos los que asistimos a este evento.</p>
+        Imágenes y postales que quedarán guardadas en la memoria de todos los que asistimos a este evento 📸.</p>
 
 
         <!-- GALERÍA -->
@@ -185,15 +183,15 @@
  <!-- Sección de Eventos deportivos de Atletismo -->
   </div>
       <div class="col-md-6">
-      <h2><i class="bi bi-gear me-2"></i>"Eventos deportivos de Atletismo"</h2>
+      <h2><i class="bi bi-gear me-2"></i>"Eventos deportivos de Atletismo" 🏃‍♂️🏃‍♀️</h2>
       <p style="text-align: justify;">Destacada participación de nuestros jóvenes estudiantes en los Eventos deportivos de atletismo etapa supervisión num. 50.
 De la cual, se obtuvieron las siguientes posiciones:
 </p>
 <ul style="list-style: none; padding-left: 0;">
-  <li>⭐ 1er lugar - 150 m. Varonil</li>
-  <li>⭐ 1er lugar - 300 m. Varonil</li>
-  <li>⭐ 1er lugar - 300 m. Femenil</li>
-  <li>⭐ 1er lugar - 600 m. Femenil</li>
+  <li>🥇 1er lugar - 150 m. Varonil</li>
+  <li>🥇 1er lugar - 300 m. Varonil</li>
+  <li>🥇 1er lugar - 300 m. Femenil</li>
+  <li>🥇 1er lugar - 600 m. Femenil</li>
 </ul>
  <!-- GALERÍA -->
  <section id="galeria">
