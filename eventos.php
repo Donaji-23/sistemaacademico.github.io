@@ -114,9 +114,8 @@
     - Celebrar nuestras tradiciones y cultura 🎉<br>
     - Conocer nuevos amigos y profesores 👫👨‍🏫<br>
     - Divertirte y pasar un buen rato 🎈<br>
-    <strong>¡No te pierdas la oportunidad de unirte a nosotros y ser parte de nuestra comunidad escolar!</strong>
+    <strong class="fw-bold">¡No te pierdas la oportunidad de unirte a nosotros y ser parte de nuestra comunidad escolar!</strong>
   </p>
-
       <!-- Sección de   50 Aniversario -->
     <div class="row mt-5">
       <div class="col-md-6">
@@ -255,7 +254,7 @@ De la cual, se obtuvieron las siguientes posiciones:
 <!-- Sección de  Destacada participación de nuestra institución en el "Concurso de escoltas" -->
       <div class="row mt-5">
       <div class="col-md-6">
-        <h2><i class="bi bi-bullseye me-2"></i>"Concurso de escoltas"</h2>
+        <h2><i class="bi bi-bullseye me-2"></i>"Concurso de escoltas"🥇</h2>
         <p style="text-align: justify;">Todo el reconocimiento para las participantes por el esfuerzo y la gallardía mostrada en las ejecuciones, a los padres de familia por su apoyo, a los profesores de educación física y a los que acompañaron a nuestra escolta en este evento.</p>
 
 
@@ -318,7 +317,7 @@ De la cual, se obtuvieron las siguientes posiciones:
  <!-- Sección de Eventos club de danza  -->
   </div>
       <div class="col-md-6">
-      <h2><i class="bi bi-gear me-2"></i>"Club de danza"</h2>
+      <h2><i class="bi bi-gear me-2"></i>"Club de danza"💃🕺</h2>
       <p style="text-align: justify;">Participación del club de danza y alumnos de nuestra institución, en la presentación de los cuadros de baile "Veracruz" y danzón.</p>
       
  <!-- GALERÍA -->
@@ -383,7 +382,7 @@ De la cual, se obtuvieron las siguientes posiciones:
 <!-- Sección de "El orgullo de ser mexicano"-->
 <div class="row mt-5">
       <div class="col-md-6">
-        <h2><i class="bi bi-bullseye me-2"></i>"El orgullo de ser mexicano"</h2>
+        <h2><i class="bi bi-bullseye me-2"></i>"El orgullo de ser mexicano"🌮🌶</h2>
         <p style="text-align: justify;">Las profesoras de primer y segundo grado iniciaron el 2 de septiembre un hermoso proyecto titulado "El orgullo de ser mexicano". Para lo cual, el día de hoy se comenzó con la presentación de los trabajos realizados en cada grupo.
         Padres, docentes y alumnos en conjunto, por un bien común.</p>
 
@@ -517,7 +516,7 @@ De la cual, se obtuvieron las siguientes posiciones:
 <!-- Sección de El Día de Muertos -->
 <div class="row mt-5">
       <div class="col-md-6">
-        <h2><i class="bi bi-bullseye me-2"></i>"El Día de Muertos"</h2>
+        <h2><i class="bi bi-bullseye me-2"></i>"El Día de Muertos"🧟‍♀️🥖</h2>
         <p style="text-align: justify;">En la visión indígena implica el retorno transitorio de las ánimas de los difuntos, quienes regresan a casa, al mundo de los vivos, para convivir con los familiares y
            también para nutrirse de la esencia del alimento que se les ofrece en los altares puestos en su honor.</p>
 
@@ -583,7 +582,7 @@ De la cual, se obtuvieron las siguientes posiciones:
  <!-- Sección de Eventos Navidad. -->
   </div>
       <div class="col-md-6">
-      <h2><i class="bi bi-gear me-2"></i>"Navidad"</h2>
+      <h2><i class="bi bi-gear me-2"></i>"Navidad"🎅🎄</h2>
       <p style="text-align: justify;">Era Rodolfo un reno que tenía la nariz, roja como la grana y de un brillo singular. Todos sus compañeros se reían sin parar y nuestro buen amigo solo y triste se quedó.
       Pero Navidad llegó, Santa Claus bajó y a Rodolfo lo eligió por su singular nariz. </p>
       
@@ -652,7 +651,7 @@ De la cual, se obtuvieron las siguientes posiciones:
 <!-- Sección de Eventos deportivos "-->
 <div class="row mt-5">
       <div class="col-md-6">
-        <h2><i class="bi bi-bullseye me-2"></i>"Eventos deportivos"</h2>
+        <h2><i class="bi bi-bullseye me-2"></i>"Eventos deportivos"🎾🏐🏃⛹️‍♀️</h2>
         <p style="text-align: justify;">Nos sentimos orgullosos de nuestros jóvenes deportistas que están poniendo muy en alto su esfuerzo y dedicación así como a nuestra institución a la cual están representando.</p>
 
 
@@ -717,7 +716,7 @@ De la cual, se obtuvieron las siguientes posiciones:
  <!-- Sección de Eventos de la Kermés de la Primavera -->
   </div>
       <div class="col-md-6">
-      <h2><i class="bi bi-gear me-2"></i>"Kermés de la Primavera"</h2>
+      <h2><i class="bi bi-gear me-2"></i>"Kermés de la Primavera"🐝🪻🌼</h2>
       <p style="text-align: justify;">Fue una jornada llena de diversión y alegría donde chicos y grandes disfrutaron de la pasarela de disfraces alusivos a la primavera, bailes, cantos, increíbles juegos como la tradicional lotería, brincolines, inflables y la emocionante tómbola. 
         Además, contamos con una deliciosa variedad de comida que deleitó a todos los asistentes. </p>
       
@@ -783,7 +782,19 @@ De la cual, se obtuvieron las siguientes posiciones:
 <!--  -->
 <!--  -->
 <!--  -->
-<!--  -->
+<!-- Videos de los eventos academicos -->
+<div class="divider">
+            <h2> <span style="color: brown;"> Videos de los eventos académicos</span></h2>
+          </div>
+
+          <div class="row mt-5">
+            <div class="container text-center">
+
+              <h2 class="fw-bold text-center mb-4"><span style="color: brown;"></span></h2>
+
+              <div class="row" id="book-section">
+
+
 
   <!-- Pie de página -->
   <footer class="bg-gradient text-light py-4 mt-5">
