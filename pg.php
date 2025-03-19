@@ -2,54 +2,34 @@
 <html lang="es">
 
 <head>
-  <!-- Meta tags requeridos -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Sitio web personal de Jorge L. Tamayo">
 
-  <!-- Open Graph / redes sociales -->
   <meta property="og:title" content="Jorge L. Tamayo">
   <meta property="og:description" content="Sitio web personal de Jorge L. Tamayo">
   <meta property="og:image" content="public/image/logo/jorge1.png">
   <meta property="og:url" content="https://jorgelamayo.com">
-
-  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="public/image/logo/jorge1.png">
-
-  <!-- Título -->
   <title>Jorge L. Tamayo</title>
-
-  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- CSS personalizado -->
   <link rel="stylesheet" href="public/css/styles.css">
 
 </head>
 
 <body>
-  <!-- Navegación principal -->
   <nav class="navbar navbar-expand-lg bg-light shadow-sm">
     <div class="container-fluid">
-      <!-- Logo y nombre -->
       <a class="navbar-brand d-flex align-items-center" href="#">
         <img src="public/image/logo/jorge1.png" alt="Logo de Jorge L. Tamayo" width="60" height="60" class="me-3">
         <span class="fw-bold">Jorge L. Tamayo</span>
       </a>
-
-      <!-- Botón hamburguesa para móviles -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
         aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <!-- Menú principal -->
       <div class="collapse navbar-collapse" id="navbarMain">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -63,8 +43,8 @@
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle d-flex align-items-center px-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle d-flex align-items-center px-3" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               <i class="bi bi-book me-1"></i> Talleres
             </a>
             <ul class="dropdown-menu shadow-sm" aria-labelledby="navbarDropdown">
@@ -87,9 +67,6 @@
             </a>
           </li>
         </ul>
-        </ul>
-
-        <!-- Formulario de búsqueda -->
         <form class="d-flex ms-auto">
           <div class="input-group">
             <input class="form-control" type="search" placeholder="¿Qué deseas buscar?" aria-label="Buscar">
@@ -102,86 +79,130 @@
     </div>
   </nav>
 
-  <!-- Contenido principal -->
-  <section class="container my-5 fade-in">
-    <h1 class="text-center mb-4">Inclusión Educativa</h1>
-    <p class="lead text-center">
-      La inclusión educativa es fundamental para garantizar que todos los estudiantes tengan las mismas oportunidades de aprendizaje y desarrollo.
-    </p>
 
-    <div class="row mt-5">
-      <div class="col-md-6">
-        <h2><i class="bi bi-bullseye me-2"></i>Objetivos</h2>
-        <p>Nuestro objetivo es crear un ambiente educativo donde todos los estudiantes se sientan valorados y apoyados, independientemente de sus capacidades o necesidades.</p>
-      </div>
-      <div class="col-md-6">
-        <h2><i class="bi bi-gear me-2"></i>Estrategias</h2>
-        <p>Implementamos diversas estrategias para fomentar la inclusión, como la adaptación de materiales educativos, la formación continua de nuestros docentes y la colaboración con especialistas.</p>
-      </div>
-    </div>
+  <br><br><br>
 
-    <div class="row mt-5">
-      <div class="col-md-6">
-        <h2><i class="bi bi-book me-2"></i>Recursos</h2>
-        <ul>
-          <li><a href="https://educrea.cl/estrategias-de-atencion-para-apoyar-a-alumnos-con-necesidades-educativas-especiales-en-el-aula/" target="_blank">Artículo sobre inclusión educativa</a></li>
-          <li><a href="https://youtu.be/tPnwZlQgMkw" target="_blank">Video: Estrategias inclusivas en el aula</a></li>
 
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <h2><i class="bi bi-chat-left-quote me-2"></i>Testimonios</h2>
-        <div class="card mb-3">
-          <div class="card-body">
-            <p class="card-text">"La inclusión en esta escuela ha cambiado la vida de mi hijo para mejor." - Padre de familia</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text">"Me siento valorado y apoyado en cada clase." - Estudiante</p>
-          </div>
+  <!--agregar mas -->
+
+
+  <!--Videos-->
+
+
+  <div class="divider">
+    <h2> <span style="color: brown;">Videos de primer grado</span></h2>
+  </div>
+
+
+  <div class="container mt-5">
+    <h2 class="fw-bold text-center mb-4"><span style="color: brown;"></span></h2>
+
+    <div class="row justify-content-center">
+      <!-- Video 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/2n7CXoRMsG4" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
 
-    <div class="row mt-5">
-      <div class="col-md-12">
-        <h2><i class="bi bi-images me-2"></i>Galería</h2>
-        <div id="inclusionCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner mx-auto" style="max-width: 600px;">
-            <div class="carousel-item active">
-              <img src="public/image/carrucel/jorge 1.jpg" class="d-block w-100" alt="Actividad inclusiva 1">
-            </div>
-            <div class="carousel-item">
-              <img src="public/image/carrucel/jorge 2.jpg" class="d-block w-100" alt="Actividad inclusiva 2">
-            </div>
-            <div class="carousel-item">
-              <img src="public/image/carrucel/jorge 3.jpg" class="d-block w-100" alt="Actividad inclusiva 3">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#inclusionCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#inclusionCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-          </button>
+      <!-- Video 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/jlC2l0kqocE" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
 
-
-
-    <!-- Juego Educativo -->
-    <div class="row mt-5">
-      <div class="col-md-12">
-        <h2><i class="bi bi-controller me-2"></i>Juego Educativo</h2>
-        <p>Aprende sobre inclusión educativa de una manera divertida con nuestro juego interactivo.</p>
-        <iframe src="https://es.educaplay.com/" width="100%" height="500px"></iframe>
+      <!-- Video 3 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/2o46gKeQTwc" allowfullscreen></iframe>
+        </div>
       </div>
+
+      <!-- Video 4 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/TZ6eC2EMstQ" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Video 5 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/4ZeBdCGGvWA" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Video 6 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/aT9CKFC9D2c" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Video 7 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/0tlr2qhnam8" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Video 8 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/6z35B40Gxhw" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Video 9 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/kKM0uNz8VL4" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Video 10 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/W_LhyqgaRJI" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Video 11 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/nSn_BXX8Wng" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Video 12 -->
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/5IUhK5jGN5E" allowfullscreen></iframe>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+
+
+  <!--Icono de regresar y siguiente-->
+
+  <div class="d-flex justify-content-between mt-3">
+    <!-- Botón de regresar -->
+    <a href="tarte.php" class="btn btn-outline-primary">
+      <i class="bi bi-arrow-left-circle"></i> Regresar
+    </a>
+
+    <!-- Botón de avanzar -->
+    <a href="sg.php" class="btn btn-outline-success">
+      Siguiente <i class="bi bi-arrow-right-circle"></i>
+    </a>
+  </div>
+
+
+  <br><br><br>
+
 
   <!-- Pie de página -->
   <footer class="bg-gradient text-light py-4 mt-5">

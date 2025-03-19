@@ -77,7 +77,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-flex align-items-center px-3" href="">
+            <a class="nav-link d-flex align-items-center px-3" href="eventos.php">
               <i class="bi bi-folder me-1"></i> Eventos
             </a>
           </li>
@@ -102,154 +102,161 @@
     </div>
   </nav>
 
+
   <!-- Contenido principal -->
-  <section class="container my-5">
-    <h1 class="text-center mb-4">Inclusión Educativa</h1>
-    <p class="lead text-center">
-      La inclusión educativa es fundamental para garantizar que todos los estudiantes tengan las mismas oportunidades de aprendizaje y desarrollo.
-    </p>
+  <main class="container py-5">
+    <!-- Sección de introducción acerca de -->
+    <section class="mb-5">
+      <div class="row align-items-center" id="acerca de">
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-4"> Arte - <span style="color: brown;">Educación Primaria</span></h2>
+          <p class="lead" style="text-align:justify"></p>
+          <p style="text-align: justify;">
 
-    <div class="row mt-5">
-      <div class="col-md-6">
-        <h2><i class="bi bi-bullseye me-2"></i>Objetivos</h2>
-        <p>Nuestro objetivo es crear un ambiente educativo donde todos los estudiantes se sientan valorados y apoyados, independientemente de sus capacidades o necesidades.</p>
-      </div>
-      <div class="col-md-6">
-        <h2><i class="bi bi-gear me-2"></i>Estrategias</h2>
-        <p>Implementamos diversas estrategias para fomentar la inclusión, como la adaptación de materiales educativos, la formación continua de nuestros docentes y la colaboración con especialistas.</p>
-      </div>
-    </div>
-
-    <div class="row mt-5">
-      <div class="col-md-6">
-        <h2><i class="bi bi-book me-2"></i>Recursos</h2>
-        <ul>
-          <li><a href="#" target="_blank">Artículo sobre inclusión educativa</a></li>
-          <li><a href="#" target="_blank">Video: Estrategias inclusivas en el aula</a></li>
-          <li><a href="#" target="_blank">Libro recomendado: "Inclusión Educativa en Acción"</a></li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <h2><i class="bi bi-chat-left-quote me-2"></i>Testimonios</h2>
-        <div class="card mb-3">
-          <div class="card-body">
-            <p class="card-text">"La inclusión en esta escuela ha cambiado la vida de mi hijo para mejor." - Padre de familia</p>
-          </div>
+            Nosotros buscamos desarrollar la creatividad, la expresión y la apreciación
+            artística de los niños en alguna área que ellos prefieran para que esta enseñanza
+            permita que los niños exploren sus habilidades artísticas, mejoren su coordinación
+            motriz y desarrollen sensibilidad cultural.</p>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text">"Me siento valorado y apoyado en cada clase." - Estudiante</p>
-          </div>
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <center>
+            <img src="public/gif/acerca.gif" width="50%" alt="Imagen de búsqueda">
+          </center>
         </div>
       </div>
-    </div>
+      <div class="row mt-5">
+        <div class="container text-center">
+          <h2 class="fw-bold text-center mb-4"><span style="color: brown;">Material</span></h2>
 
-    <div class="row mt-5">
-      <div class="col-md-12">
-        <h2><i class="bi bi-images me-2"></i>Galería</h2>
-        <div id="inclusionCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="public/image/inclusion/inclusion1.jpg" class="d-block w-100" alt="Actividad inclusiva 1">
+          <div class="row" id="book-section">
+            <!-- Libros de Primero -->
+            <div class="col-md-4 zoomp" data-grade="1">
+
+              <h4 class="text-center fw-bold">Música</h4>
+              <div class="card">
+
+
+                <img src="public/image/taller/musica.jpg" class="card-img-top" alt="Múltiples Lenguajes" height="50%">
+                <div class="card-body">
+                  <h5 class="card-title text-center"></h5>
+                  <p class="card-text" style="text-align: justify;"> </p>
+                  <center>
+                    <a href="musica.php" class="btn btn-primary">
+                      <i class="bi bi-book"></i> Ver más
+                    </a>
+                  </center>
+                </div>
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="public/image/inclusion/inclusion2.jpg" class="d-block w-100" alt="Actividad inclusiva 2">
+            <!-- Libros de segundo -->
+            <div class="col-md-4 zoomp" data-grade="1">
+              <h4 class="text-center fw-bold">Danza</h4>
+              <div class="card">
+                <img src="public/image/taller/danza.jpg" class="card-img-top" alt="Proyectos de Aula" style="max-height: 416px; width: auto;">
+                <div class="card-body">
+                  <h5 class="card-title text-center"></h5>
+                  <p class="card-text" style="text-align: justify;"> </p>
+                  <center>
+                    <a href="danza.php" class="btn btn-primary">
+                      <i class="bi bi-book"></i> Ver más
+                    </a>
+                  </center>
+                </div>
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="public/image/inclusion/inclusion3.jpg" class="d-block w-100" alt="Actividad inclusiva 3">
+            <!-- Libros de Tercero-->
+            <div class="col-md-4 zoomp" data-grade="1">
+              <h4 class="text-center fw-bold">Dibujo</h4>
+              <div class="card">
+                <img src="public/image/taller/dibujo.jpg" class="card-img-top" alt="Múltiples Lenguajes" style="max-height: 416px; width: auto;">
+                <div class="card-body">
+                  <h5 class="card-title text-center"></h5>
+                  <p class="card-text" style="text-align: justify;"> </p>
+                  <center>
+                    <a href="dibujo.php" class="btn btn-primary">
+                      <i class="bi bi-book"></i> Ver más
+                    </a>
+                  </center>
+                </div>
+              </div>
             </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#inclusionCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#inclusionCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-          </button>
-        </div>
-      </div>
-    </div>
 
-    <div class="row mt-5">
-      <div class="col-md-12 text-center">
-        <h2><i class="bi bi-envelope me-2"></i>Contacto</h2>
-        <p>¿Tienes preguntas o sugerencias? Contáctanos a través de <a href="mailto:inclusion@jorgelamayo.com">inclusion@jorgelamayo.com</a>.</p>
-      </div>
-    </div>
-
-    <!-- Encuesta Interactiva -->
-    <div class="row mt-5">
-      <div class="col-md-12">
-        <h2><i class="bi bi-clipboard-check me-2"></i>Encuesta de Inclusión</h2>
-        <p>Queremos conocer tu opinión sobre nuestras estrategias de inclusión. ¡Participa en nuestra encuesta!</p>
-        <iframe src="URL_DE_TU_ENCUESTA" width="100%" height="500px"></iframe>
-      </div>
-    </div>
-
-    <!-- Juego Educativo -->
-    <div class="row mt-5">
-      <div class="col-md-12">
-        <h2><i class="bi bi-controller me-2"></i>Juego Educativo</h2>
-        <p>Aprende sobre inclusión educativa de una manera divertida con nuestro juego interactivo.</p>
-        <iframe src="URL_DEL_JUEGO" width="100%" height="500px"></iframe>
-      </div>
-    </div>
-  </section>
-
-  <!-- Pie de página -->
-  <footer class="bg-gradient text-light py-4 mt-5">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3">
-          <center><img src="public/image/logo/jorge1.png" width="200" height="200" class="me-2"></center>
-        </div>
-        <div class="col-md-3">
-          <h5><b>Jorge L. Tamayo</b></h5>
-          <p>Portfolio profesional y sitio personal</p>
-          <p>
-            <a href="mailto:contacto@jorgelamayo.com" class="text-light text-decoration-none">
-              <i class="bi bi-envelope-fill me-2"></i>contacto@jorgelamayo.com
-            </a>
-          </p>
-          <h5>Sígueme</h5>
-          <div class="d-flex gap-3 fs-4">
-            <a href="https://www.facebook.com/profile.php?id=100084810804196" class="text-light"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/chan_fle23/" class="text-light"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="text-light"><i class="bi bi-github"></i></a>
           </div>
         </div>
-        <div class="col-md-3">
-          <h5>Enlaces Rápidos</h5>
-          <ul class="list-unstyled">
-            <li><a href="index.php" class="text-light text-decoration-none">Inicio</a></li>
-            <li><a href="portfolio.html" class="text-light text-decoration-none">Portafolio</a></li>
-            <li><a href="proyectos.html" class="text-light text-decoration-none">Proyectos</a></li>
-            <li><a href="contacto.html" class="text-light text-decoration-none">Contacto</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <ul class="list-unstyled">
-            <li><a href="#acerca de" class="text-light text-decoration-none">acerca de</a></li>
-            <li><a href="#galeria" class="text-light text-decoration-none">Galeria</a></li>
-            <li><a href="#testimonios" class="text-light text-decoration-none">Testimonios</a></li>
-            <li><a href="#UBICACION" class="text-light text-decoration-none">Ubicacion</a></li>
-            <li><a href="#CONTACTANOS" class="text-light text-decoration-none">Contactanos</a></li>
-            <li><a href="#Material" class="text-light text-decoration-none">Material de guia</a></li>
-          </ul>
-        </div>
       </div>
-      <hr class="my-3">
-      <div class="text-center">
-        <p class="mb-0">&copy; 2025 Jorge L. Tamayo. Todos los derechos reservados.</p>
-      </div>
-    </div>
-  </footer>
 
-  <!-- Scripts necesarios -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="public/js/main.js"></script>
+
+
+
+
+
+
+
+
+
+      <!-- Juego Educativo -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <h2><i class="bi bi-controller me-2"></i>Juego Educativo</h2>
+          <p>Aprende sobre inclusión educativa de una manera divertida con nuestro juego interactivo.</p>
+          <iframe src="URL_DEL_JUEGO" width="100%" height="500px"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-gradient text-light py-4 mt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <center><img src="public/image/logo/jorge1.png" width="200" height="200" class="me-2"></center>
+          </div>
+          <div class="col-md-3">
+            <h5><b>Jorge L. Tamayo</b></h5>
+            <p>Portfolio profesional y sitio personal</p>
+            <p>
+              <a href="mailto:contacto@jorgelamayo.com" class="text-light text-decoration-none">
+                <i class="bi bi-envelope-fill me-2"></i>contacto@jorgelamayo.com
+              </a>
+            </p>
+            <h5>Sígueme</h5>
+            <div class="d-flex gap-3 fs-4">
+              <a href="https://www.facebook.com/profile.php?id=100084810804196" class="text-light"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/chan_fle23/" class="text-light"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="text-light"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h5>Enlaces Rápidos</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.php" class="text-light text-decoration-none">Inicio</a></li>
+              <li><a href="portfolio.html" class="text-light text-decoration-none">Portafolio</a></li>
+              <li><a href="proyectos.html" class="text-light text-decoration-none">Proyectos</a></li>
+              <li><a href="contacto.html" class="text-light text-decoration-none">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="list-unstyled">
+              <li><a href="#acerca de" class="text-light text-decoration-none">acerca de</a></li>
+              <li><a href="#galeria" class="text-light text-decoration-none">Galeria</a></li>
+              <li><a href="#testimonios" class="text-light text-decoration-none">Testimonios</a></li>
+              <li><a href="#UBICACION" class="text-light text-decoration-none">Ubicacion</a></li>
+              <li><a href="#CONTACTANOS" class="text-light text-decoration-none">Contactanos</a></li>
+              <li><a href="#Material" class="text-light text-decoration-none">Material de guia</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-3">
+        <div class="text-center">
+          <p class="mb-0">&copy; 2025 Jorge L. Tamayo. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts necesarios -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="public/js/main.js"></script>
 </body>
 
 </html>

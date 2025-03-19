@@ -77,7 +77,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-flex align-items-center px-3" href="">
+            <a class="nav-link d-flex align-items-center px-3" href="eventos.php">
               <i class="bi bi-folder me-1"></i> Eventos
             </a>
             </a>
