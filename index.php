@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Sitio web personal de Jorge L. Tamayo">
-
   <meta property="og:title" content="Jorge L. Tamayo">
   <meta property="og:description" content="Sitio web personal de Jorge L. Tamayo">
   <meta property="og:image" content="public/image/logo/jorge1.png">
@@ -16,7 +15,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="public/css/styles.css">
-
+  <style>
+ 
+  </style>
 </head>
 
 <body>
@@ -50,7 +51,9 @@
             <ul class="dropdown-menu shadow-sm" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="ingles.php">Inglés</a></li>
               <li><a class="dropdown-item" href="computacion.php">Computación</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
               <li><a class="dropdown-item" href="artistica.php">Artística</a></li>
             </ul>
           </li>
@@ -88,7 +91,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="public/image/carrucel/jorge 1.jpg" class="d-block w-100" alt="Imagen de portada principal"
+          <img src="public/image/carrucel/jorge 1.jpg" class="d-block w-100 img-fluid" alt="Imagen de portada principal"
             style="height: 70vh; object-fit: cover;">
           <div class="carousel-caption">
             <h5 class="fw-bold">Bienvenido a la escuela Jorge L. Tamayo</h5>
@@ -96,7 +99,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="public/image/carrucel/jorge 2.jpg" class="d-block w-100" alt="Imagen de portada principal"
+          <img src="public/image/carrucel/jorge 2.jpg" class="d-block w-100 img-fluid" alt="Imagen de portada principal"
             style="height: 70vh; object-fit: cover;">
           <div class="carousel-caption">
             <h5 class="fw-bold">Ofertas Educativas</h5>
@@ -104,7 +107,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="public/image/carrucel/jorge 3.jpg" class="d-block w-100" alt="Imagen de portada principal"
+          <img src="public/image/carrucel/jorge 3.jpg" class="d-block w-100 img-fluid" alt="Imagen de portada principal"
             style="height: 70vh; object-fit: cover;">
           <div class="carousel-caption">
             <h5 class="fw-bold">Ambiente profesional</h5>
@@ -112,7 +115,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="public/image/carrucel/jorge 4.jpg" class="d-block w-100" alt="Imagen de portada principal"
+          <img src="public/image/carrucel/jorge 4.jpg" class="d-block w-100 img-fluid" alt="Imagen de portada principal"
             style="height: 70vh; object-fit: cover;">
           <div class="carousel-caption">
             <h5 class="fw-bold">Somos tu Mejor Opción</h5>
@@ -135,7 +138,7 @@
     <section class="mb-5">
       <div class="row align-items-center" id="acerca de">
         <div class="col-lg-6">
-        <h2 class="fw-bold mb-4 uppercase">Acerca de <span style="color: brown;">Nosotros</span></h2>
+          <h2 class="fw-bold mb-4 uppercase">Acerca de <span style="color: brown;">Nosotros</span></h2>
           <p class="lead" style="text-align:justify">LA EDUCACIÓN ES EL MEDIO FUNDAMENTAL DE LAS SOCIEDADES PARA
             CONSERVAR, TRANSMITIR Y TRANSFORMAR LA CULTURA Y LA VIDA DE LOS INDIVIDUOS.</p>
           <p style="text-align: justify;">En este sentido se constituye en el soporte para el desarrollo de las
@@ -144,18 +147,17 @@
         </div>
         <div class="col-lg-6 mt-4 mt-lg-0">
           <center>
-            <img src="public/gif/acerca.gif" width="50%" alt="Imagen de búsqueda">
+            <img src="public/gif/acerca.gif" width="50%" alt="Imagen de búsqueda" class="img-fluid">
           </center>
         </div>
       </div>
-      
 
       <section id="galeria">
         <div class="container">
-        <h2 class="fw-bold mb-4 uppercase" style="text-align: center;">gale<span style="color: brown;">ria</span></h2><br>
+          <h2 class="fw-bold mb-4 uppercase text-center">gale<span style="color: brown;">ria</span></h2><br>
           <div class="row">
             <div class="col-md-4 zoomp">
-              <img src="public/image/gale/galeria1.jpg" height="240px" width="90%"
+              <img src="public/image/gale/galeria1.jpg" class="img-fluid"
                 alt="Parte de exterior de la escuela primaria Jorge L Tamayo" data-bs-toggle="modal" data-bs-target="#image1"> <br><br>
             </div>
             <div class="modal fade" id="image1" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
@@ -168,14 +170,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                   </div>
                   <div class="modal-body text-center">
-                    <img src="public/image/gale/galeria1.jpg" width="100%" alt="Parte de exterior de la escuela primaria Jorge L Tamayo">
+                    <img src="public/image/gale/galeria1.jpg" class="img-fluid" alt="Parte de exterior de la escuela primaria Jorge L Tamayo">
                     <p class="mt-3">En esta imagen se muestra la escuela Primaria Jorge L Tamayo lo cual luce hermosa por fuera.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-8 zoomp">
-              <img src="public/image/gale/galeria2.jpg" height="350px" width="100%"
+              <img src="public/image/gale/galeria2.jpg" class="img-fluid"
                 alt="Cuadros Representativos de la Escuela Primaria" data-bs-toggle="modal" data-bs-target="#image2"> <br><br>
             </div>
           </div> <br><br>
@@ -189,7 +191,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                 </div>
                 <div class="modal-body text-center">
-                  <img src="public/image/gale/galeria2.jpg" width="100%" alt="Cuadros Representativos de la Escuela Primaria">
+                  <img src="public/image/gale/galeria2.jpg" class="img-fluid" alt="Cuadros Representativos de la Escuela Primaria">
                   <p class="mt-3">Esta es una escuela primaria muy sostificada y enorme lo cual se ve hermosa y su placa de
                     50 años de aniversario muy bonito por cierto.</p>
                 </div>
@@ -198,7 +200,7 @@
           </div>
           <div class="row">
             <div class="col-md-4 zoomp">
-              <img src="public/image/gale/galeria3.jpg" height="240px" width="90%"
+              <img src="public/image/gale/galeria3.jpg" class="img-fluid"
                 alt="Cuadros Representativos de la Escuela Primaria" data-bs-toggle="modal" data-bs-target="#image3"> <br><br>
             </div>
             <div class="modal fade" id="image3" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
@@ -211,14 +213,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                   </div>
                   <div class="modal-body text-center">
-                    <img src="public/image/gale/galeria3.jpg" width="100%" alt="Cuadros Representativos de la Escuela Primaria">
+                    <img src="public/image/gale/galeria3.jpg" class="img-fluid" alt="Cuadros Representativos de la Escuela Primaria">
                     <p class="mt-3">Esto es un mural de los cuadros de la primaria Jorge L Tamayo.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4 zoomp">
-              <img src="public/image/gale/galeria4.jpg" height="240px" width="90%"
+              <img src="public/image/gale/galeria4.jpg" class="img-fluid"
                 alt="Entrada de bienvenida" data-bs-toggle="modal" data-bs-target="#image4"> <br><br>
             </div>
             <div class="modal fade" id="image4" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
@@ -231,14 +233,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                   </div>
                   <div class="modal-body text-center">
-                    <img src="public/image/gale/galeria4.jpg" width="100%" alt="Entrada de bienvenida">
+                    <img src="public/image/gale/galeria4.jpg" class="img-fluid" alt="Entrada de bienvenida">
                     <p class="mt-3">Esta es una imagen de la entrada de la escuela.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4 zoomp">
-              <img src="public/image/gale/galeria5.jpg" height="240px" width="90%"
+              <img src="public/image/gale/galeria5.jpg" class="img-fluid"
                 alt="Jardin de la Escuela" data-bs-toggle="modal" data-bs-target="#image5"> <br><br>
             </div>
           </div><br><br>
@@ -247,12 +249,12 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <center>
-                    <h5 class="modal-title" id="imageModalLabel">Jardin de la Ecuela</h5>
+                    <h5 class="modal-title" id="imageModalLabel">Jardin de la Escuela</h5>
                   </center>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                 </div>
                 <div class="modal-body text-center">
-                  <img src="public/image/gale/galeria5.jpg" width="100%" alt="Jardin de la Escuela">
+                  <img src="public/image/gale/galeria5.jpg" class="img-fluid" alt="Jardin de la Escuela">
                   <p class="mt-3">Esta es una imagen de lo hermoso que se ve el jardin de la escuela.</p>
                 </div>
               </div>
@@ -260,7 +262,7 @@
           </div>
           <div class="row">
             <div class="col-md-8 zoomp">
-              <img src="public/image/gale/galeria6.jpg" height="240px" width="90%"
+              <img src="public/image/gale/galeria6.jpg" class="img-fluid"
                 alt="Grupos de Alumnos" data-bs-toggle="modal" data-bs-target="#image6"> <br><br>
               <div class="modal fade" id="image6" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
@@ -272,7 +274,7 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                     </div>
                     <div class="modal-body text-center">
-                      <img src="public/image/gale/galeria6.jpg" width="100%" alt="Grupos de Alumnos">
+                      <img src="public/image/gale/galeria6.jpg" class="img-fluid" alt="Grupos de Alumnos">
                       <p class="mt-3">Esta es una imagen de un Grupos de Alumnos participando en eventos.</p>
                     </div>
                   </div>
@@ -280,7 +282,7 @@
               </div>
             </div>
             <div class="col-md-4 zoomp">
-              <img src="public/image/gale/galeria7.jpg" height="240px" width="90%"
+              <img src="public/image/gale/galeria7.jpg" class="img-fluid"
                 alt="Niños Jugando Deporte-Futbol" data-bs-toggle="modal" data-bs-target="#image7"> <br><br>
               <div class="modal fade" id="image7" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
@@ -292,7 +294,7 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                     </div>
                     <div class="modal-body text-center">
-                      <img src="public/image/gale/galeria7.jpg" width="100%" alt="Niños Jugando Deporte-Futbol">
+                      <img src="public/image/gale/galeria7.jpg" class="img-fluid" alt="Niños Jugando Deporte-Futbol">
                       <p class="mt-3">Esta es una imagen niños participando en un encuentro de futbol varonil.
                       </p>
                     </div>
@@ -304,8 +306,8 @@
         </div>
       </section> <br><br>
       <section class="mb-5" id="Testimonios">
-        <div class="containe">
-        <h2 class="fw-bold mb-4 uppercase" style="text-align: center;">comentarios d<span style="color: brown;">e familias</span></h2><br>
+        <div class="container">
+          <h2 class="fw-bold mb-4 uppercase text-center">comentarios d<span style="color: brown;">e familias</span></h2><br>
           <div class="row">
             <div id="carouselExampleIndicators" class="carousel slide">
               <div class="carousel-indicators">
@@ -321,8 +323,8 @@
                   <div class="row">
                     <div class="col-md-4 zoomp">
                       <div class="card">
-                        <img src="public/image/padres/adult-trieng-acheve-work-personal-life.jpg" class="card-img-top"
-                          alt="..." style="object-fit: cover; width: 100%; height: 200px;">
+                        <img src="public/image/padres/adult-trieng-acheve-work-personal-life.jpg" class="card-img-top img-fluid"
+                          alt="...">
                         <div class="card-body">
                           <h5 class="card-title text-center">Familia Alberto</h5>
                           <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
@@ -332,8 +334,8 @@
                     </div>
                     <div class="col-md-4 zoomp">
                       <div class="card">
-                        <img src="public/image/padres/father-son-playing-together-fathers-day.jpg" class="card-img-top"
-                          alt="..." style="object-fit: cover; width: 100%; height: 200px;">
+                        <img src="public/image/padres/father-son-playing-together-fathers-day.jpg" class="card-img-top img-fluid"
+                          alt="...">
                         <div class="card-body">
                           <h5 class="card-title text-center">Familia Alberto</h5>
                           <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
@@ -343,45 +345,7 @@
                     </div>
                     <div class="col-md-4 zoomp">
                       <div class="card">
-                        <img src="public/image/padres/medium-shot-happy-father-child.jpg" class="card-img-top" alt="..."
-                          style="object-fit: cover; width: 100%; height: 200px;">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">Familia Alberto</h5>
-                          <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
-                            title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-md-4 zoomp">
-                      <div class="card">
-                        <img src="public/image/padres/pexels-caleboquendo-3030090.jpg" class="card-img-top" alt="..."
-                          style="object-fit: cover; width: 100%; height: 200px;">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">Familia Alberto</h5>
-                          <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
-                            title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 zoomp">
-                      <div class="card">
-                        <img src="public/image/padres/pexels-emma-bauso-1183828-2253879.jpg" class="card-img-top"
-                          alt="..." style="object-fit: cover; width: 100%; height: 200px;">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">Familia Alberto</h5>
-                          <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
-                            title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 zoomp">
-                      <div class="card">
-                        <img src="public/image/padres/pexels-gustavo-fring-4148842.jpg" class="card-img-top" alt="..."
-                          style="object-fit: cover; width: 100%; height: 200px;">
+                        <img src="public/image/padres/medium-shot-happy-father-child.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                           <h5 class="card-title text-center">Familia Alberto</h5>
                           <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
@@ -395,8 +359,7 @@
                   <div class="row">
                     <div class="col-md-4 zoomp">
                       <div class="card">
-                        <img src="public/image/padres/pexels-ingo-1694649.jpg" class="card-img-top" alt="..."
-                          style="object-fit: cover; width: 100%; height: 200px;">
+                        <img src="public/image/padres/pexels-caleboquendo-3030090.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                           <h5 class="card-title text-center">Familia Alberto</h5>
                           <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
@@ -406,8 +369,8 @@
                     </div>
                     <div class="col-md-4 zoomp">
                       <div class="card">
-                        <img src="public/image/padres/pexels-olly-3820203.jpg" class="card-img-top" alt="..."
-                          style="object-fit: cover; width: 100%; height: 200px;">
+                        <img src="public/image/padres/pexels-emma-bauso-1183828-2253879.jpg" class="card-img-top img-fluid"
+                          alt="...">
                         <div class="card-body">
                           <h5 class="card-title text-center">Familia Alberto</h5>
                           <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
@@ -417,8 +380,41 @@
                     </div>
                     <div class="col-md-4 zoomp">
                       <div class="card">
-                        <img src="public/image/padres/pexels-panditwiguna-1128317.jpg" class="card-img-top" alt="..."
-                          style="object-fit: cover; width: 100%; height: 200px;">
+                        <img src="public/image/padres/pexels-gustavo-fring-4148842.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Familia Alberto</h5>
+                          <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
+                            title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-4 zoomp">
+                      <div class="card">
+                        <img src="public/image/padres/pexels-ingo-1694649.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Familia Alberto</h5>
+                          <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
+                            title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 zoomp">
+                      <div class="card">
+                        <img src="public/image/padres/pexels-olly-3820203.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Familia Alberto</h5>
+                          <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
+                            title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 zoomp">
+                      <div class="card">
+                        <img src="public/image/padres/pexels-panditwiguna-1128317.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                           <h5 class="card-title text-center">Familia Alberto</h5>
                           <p class="card-text" style="text-align: justify;">Some quick example text to build on the card
@@ -446,7 +442,7 @@
 
       <section id="UBICACION">
         <div class="container">
-        <h2 class="fw-bold mb-4 uppercase" style="text-align: center;">encuentranos<span style="color: brown;">aqui</span></h2><br>
+          <h2 class="fw-bold mb-4 uppercase text-center">encuentranos<span style="color: brown;">aqui</span></h2><br>
           <br><br>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3792.678626374932!2d-96.11512787666189!3d18.086426382295215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c3e6fd8d4207a5%3A0x129303eceb8473b8!2sPrimeria%20Ingeniero%20Jorge%20L%20Tamayo!5e0!3m2!1ses-419!2smx!4v1740752701687!5m2!1ses-419!2smx"
@@ -457,7 +453,7 @@
 
       <section class="contactos" id="contactanos">
         <div class="container">
-        <h2 class="fw-bold mb-4 uppercase" style="text-align: center;">conta<span style="color: brown;">ctanos</span></h2><br>
+          <h2 class="fw-bold mb-4 uppercase text-center">conta<span style="color: brown;">ctanos</span></h2><br>
           <div class="row">
             <div class="col-md-6"></div>
             <div class="col-md-4">
@@ -492,8 +488,8 @@
         </div>
       </section>
 
-      <footer class="bg-gradient text-light py-4 mt-5 ">
-        <div class="container ">
+      <footer class="bg-gradient text-light py-4 mt-5">
+        <div class="container">
           <div class="row">
             <div class="col-md-3">
               <center><img src="public/image/logo/jorge1.png" width="200" height="200" class="me-2"></center>
